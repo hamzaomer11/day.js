@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>current time</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/dayjs/1.11.10/dayjs.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/dayjs@1.11.10/plugin/timezone.js"></script>
+        <script>dayjs.extend(window.dayjs_plugin_timezone)</script>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <div class="container mt-1 mb-1 pt-1 pb-1">
+            <div class="flex justify-space">
+                <div id="timezone">
+                </div>
+                <div id="time-area">
+                </div>
+                <div id="day-area">
+                </div>
+            </div>
+        </div>
+        
+    <script src="main.js" async defer></script>
+    </body>
+</html>
